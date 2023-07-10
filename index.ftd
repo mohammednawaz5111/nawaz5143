@@ -1,40 +1,46 @@
--- ds.page: Welcome to doc-site
+-- ftd.column:
+width: fill-container
+height: fill-container
+background.solid: white
+align-content: center
 
+-- card:
 
-⚡️ `doc-site` will help you create a beautiful documentation site in no time.
+-- card: anime
 
-It provides out-of-the-box documentation features that can be used to create any
-kind of site(personal website, blog, etc).
+Anime has been established since 1992. We are the ultimate source for Japanese Anime collectibles, models and toys
 
-[Click here](https://fastn-community.github.io/doc-site/) to read doc-site
-documentation.
+-- end: ftd.column
 
--- ds.h3: 🚀 Fast Track 
+-- component card:
+caption title: Default Title
+body description: Default body
 
-Create your first fastn [web-site](https://fastn.com/expander/hello-world/-/build/) 
-project in just 5 minutes!
+-- ftd.row:
+width.fixed.px: 650
+height.fixed.px: 350
+background.solid: #c5dff5
+border-width.px: 3
+padding.px: 20
+border-radius.px: 20
+spacing.fixed.px: 50
 
--- ds.h3: 🌟 Whats next?
+-- ftd.image:
+src:https://w0.peakpx.com/wallpaper/844/654/HD-wallpaper-anime-anime-boy-umbrella.jpg
+height.fixed.px: 250
+width.fixed.px: 450
+border-radius.px: 20
 
-Create your first page. 
-[Click here to know more](https://fastn-community.github.io/doc-site/components/page/).
+-- ftd.column:
 
--- ds.h3: 👀 Want to learn more?
+-- ftd.text: $card.title
+role: $inherited.types.heading-medium
 
-Feel free to check [our expander course](https://fastn.com/expander/) or jump
-into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+-- ftd.text: $card.description
+role: $inherited.types.copy-regular
 
+-- end: ftd.column
 
--- ds.h3: 🎯 Used by?
+-- end: ftd.row
 
-Our all documentation sites uses this `doc-site` theme.
-
-- [fastn.com](https://fastn.com/home/)
-- [FifthTry.com](https://www.fifthtry.com/)
-
--- ds.h2: Learn fastn and become a pro?
-
-You are one click away, just check [our documentation](https://fastn.com/) and 
-dont forget to jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
-
--- end: ds.page
+-- end: card 
